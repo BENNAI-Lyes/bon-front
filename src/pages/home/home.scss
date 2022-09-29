@@ -1,0 +1,16 @@
+.home {
+  position: relative;
+  top: 70px;
+  width: 100%;
+
+  .wrapper {
+    padding: 20px;
+
+    .stat {
+      margin: 20px 0;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+  }
+}
