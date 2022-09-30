@@ -223,13 +223,14 @@ const WorkerInfo = () => {
           <div className="headerButton">
             <ReactToPrint
               trigger={() => (
-                <Button variant="outlined" color="secondary">
+                <Button variant="contained" size="small">
                   Imprimer
                 </Button>
               )}
               content={() => workerRef.current}
             />
             <Button
+              size="small"
               variant="outlined"
               color="primary"
               className="button"
@@ -241,6 +242,7 @@ const WorkerInfo = () => {
               calcul
             </Button>
             <Button
+              size="small"
               variant="contained"
               color="primary"
               startIcon={<Add />}
@@ -251,6 +253,7 @@ const WorkerInfo = () => {
             </Button>
 
             <Button
+              size="small"
               variant="contained"
               color="secondary"
               startIcon={<DeleteOutline />}
