@@ -136,7 +136,7 @@ const NewBill = () => {
       }
     };
     getClient();
-  }, [bill]);
+  }, [bill.clientId]);
 
   const [returnQuantity, setReturnQuantity] = useState(0);
   const [returnProduct, setReturnProduct] = useState('');
@@ -303,13 +303,14 @@ const NewBill = () => {
 
       //clean modal
 
-      setBillPayment('');
-
       //update client credit
       updateClient(dispatchClient, {
         credit: client.credit - billPayment,
         _id: client._id,
       });
+
+      // empty payment
+      setBillPayment('');
     } catch (error) {
       toast.error(error.response.data.message);
       dispatch(ADD_TRANSACTION_FAILURE(error));
