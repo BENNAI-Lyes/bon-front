@@ -308,9 +308,6 @@ const NewBill = () => {
         credit: client.credit - billPayment,
         _id: client._id,
       });
-
-      // empty payment
-      setBillPayment('');
     } catch (error) {
       toast.error(error.response.data.message);
       dispatch(ADD_TRANSACTION_FAILURE(error));

@@ -15,7 +15,7 @@ import ReactToPrint from 'react-to-print';
 
 import './newBill.scss';
 import logo from '../../assets/img/logo.png';
-import { DeleteOutline, NavigateBefore } from '@material-ui/icons';
+import { DeleteOutline } from '@material-ui/icons';
 import {
   getProducts,
   updateProduct,

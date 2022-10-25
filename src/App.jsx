@@ -1,38 +1,39 @@
-import "./app.scss";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Sidebar from "./components/sidebar/Sidebar";
-import Topbar from "./components/topbar/Topbar";
+import './app.scss';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Sidebar from './components/sidebar/Sidebar';
+import Topbar from './components/topbar/Topbar';
 
-import Home from "./pages/home/Home";
+import Home from './pages/home/Home';
 
-import Clients from "./pages/clients/Clients";
-import Client from "./pages/client/Client";
-import NewClient from "./pages/newClient/NewClient";
-import Products from "./pages/products/Products";
-import Product from "./pages/product/Product";
-import NewProduct from "./pages/newProduct/NewProduct";
-import Workers from "./pages/workers/Workers";
-import Worker from "./pages/worker/Worker";
-import NewWorker from "./pages/newWorker/NewWorker";
+import Clients from './pages/clients/Clients';
+import Client from './pages/client/Client';
+import NewClient from './pages/newClient/NewClient';
+import Products from './pages/products/Products';
+import Product from './pages/product/Product';
+import NewProduct from './pages/newProduct/NewProduct';
+import Workers from './pages/workers/Workers';
+import Worker from './pages/worker/Worker';
+import NewWorker from './pages/newWorker/NewWorker';
 
-import Bills from "./pages/bills/Bills";
-import Bill from "./pages/bill/Bill";
-import NewBill from "./pages/newBill/NewBill";
-import UpdateBill from "./pages/updatBill/updateBill";
+import Bills from './pages/bills/Bills';
+import Bill from './pages/bill/Bill';
+import NewBill from './pages/newBill/NewBill';
+import UpdateBill from './pages/updatBill/updateBill';
 
-import Invoices from "./pages/invoices/Invoices";
-import Invoice from "./pages/invoice/Invoice";
-import NewInvoice from "./pages/newInvoice/NewInvoice";
-import Login from "./pages/login/Login";
+import Invoices from './pages/invoices/Invoices';
+import Invoice from './pages/invoice/Invoice';
+import NewInvoice from './pages/newInvoice/NewInvoice';
+import Login from './pages/login/Login';
 
-import { Redirect } from "react-router-dom";
-import { useContext } from "react";
-import { AuthContext } from "./context/authContext/authContext";
-import ClientInfo from "./pages/clientInfo/ClientInfo";
-import ReturnProducts from "./pages/returnProducts/ReturnProducts";
-import Expenses from "./pages/expenses/Expenses";
-import WorkerInfo from "./pages/workerInfo/WorkerInfo";
-import Commande from "./pages/commande/Commande";
+import { Redirect } from 'react-router-dom';
+import { useContext } from 'react';
+import { AuthContext } from './context/authContext/authContext';
+import ClientInfo from './pages/clientInfo/ClientInfo';
+import ReturnProducts from './pages/returnProducts/ReturnProducts';
+import Expenses from './pages/expenses/Expenses';
+import WorkerInfo from './pages/workerInfo/WorkerInfo';
+import Commande from './pages/commande/Commande';
+import Vers from './pages/vers/Vers';
 
 function App() {
   const { user } = useContext(AuthContext);
@@ -130,8 +131,13 @@ function App() {
             <Route path="/dépenses">
               <Expenses />
             </Route>
+
             <Route path="/commande">
               <Commande />
+            </Route>
+
+            <Route path="/vers">
+              <Vers />
             </Route>
           </Switch>
         </div>

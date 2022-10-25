@@ -124,6 +124,18 @@ export default function Sidebar() {
             </li>
           </Link>
 
+          <Link to={'/vers'}>
+            <li
+              onClick={() => {
+                setActive('vers');
+                setMenuOpen(false);
+              }}
+              className={active === 'vers' && 'active'}
+            >
+              vers
+            </li>
+          </Link>
+
           <li
             onClick={() => {
               dispatch(LOGOUT());
