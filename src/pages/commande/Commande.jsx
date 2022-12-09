@@ -116,73 +116,111 @@ const Commande = () => {
               </thead>
               <tbody>
                 <tr>
-                  <td>200 V</td>
                   <td>
-                    {' '}
-                    <input type="number" />{' '}
+                    200 VL <span>63*73</span>{' '}
                   </td>
                   <td>
-                    <input type="number" />{' '}
+                    {' '}
+                    <input type="text" />{' '}
+                  </td>
+                  <td>
+                    <input type="text" />{' '}
                   </td>
                 </tr>
                 <tr>
-                  <td>300 V</td>
                   <td>
-                    {' '}
-                    <input type="number" />{' '}
+                    300 VL <span>74*79</span>{' '}
                   </td>
                   <td>
-                    <input type="number" />{' '}
+                    {' '}
+                    <input type="text" />{' '}
+                  </td>
+                  <td>
+                    <input type="text" />{' '}
                   </td>
                 </tr>
                 <tr>
-                  <td>500 VS</td>
                   <td>
-                    {' '}
-                    <input type="number" />{' '}
+                    500 VLS <span>55*225</span>{' '}
                   </td>
                   <td>
-                    <input type="number" />{' '}
+                    {' '}
+                    <input type="text" />{' '}
+                  </td>
+                  <td>
+                    <input type="text" />{' '}
                   </td>
                 </tr>
                 <tr>
-                  <td>500 VM</td>
                   <td>
-                    {' '}
-                    <input type="number" />{' '}
+                    500 VLM <span>61*184</span>{' '}
                   </td>
                   <td>
-                    <input type="number" />{' '}
+                    {' '}
+                    <input type="text" />{' '}
+                  </td>
+                  <td>
+                    <input type="text" />{' '}
                   </td>
                 </tr>
                 <tr>
-                  <td>800 V</td>
                   <td>
-                    {' '}
-                    <input type="number" />{' '}
+                    500 VL <span>71*150</span>{' '}
                   </td>
                   <td>
-                    <input type="number" />{' '}
+                    {' '}
+                    <input type="text" />{' '}
+                  </td>
+                  <td>
+                    <input type="text" />{' '}
                   </td>
                 </tr>
                 <tr>
-                  <td>1000 VS</td>
                   <td>
-                    {' '}
-                    <input type="number" />{' '}
+                    800 VLS <span>68*240</span>
                   </td>
                   <td>
-                    <input type="number" />{' '}
+                    {' '}
+                    <input type="text" />{' '}
+                  </td>
+                  <td>
+                    <input type="text" />{' '}
                   </td>
                 </tr>
                 <tr>
-                  <td>1000 VM</td>
                   <td>
-                    {' '}
-                    <input type="number" />{' '}
+                    800 VLM <span>71*214</span>
                   </td>
                   <td>
-                    <input type="number" />{' '}
+                    {' '}
+                    <input type="text" />{' '}
+                  </td>
+                  <td>
+                    <input type="text" />{' '}
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    1000 VLS <span>76*236</span>
+                  </td>
+                  <td>
+                    {' '}
+                    <input type="text" />{' '}
+                  </td>
+                  <td>
+                    <input type="text" />{' '}
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    1000 VLM <span>86*195</span>
+                  </td>
+                  <td>
+                    {' '}
+                    <input type="text" />{' '}
+                  </td>
+                  <td>
+                    <input type="text" />{' '}
                   </td>
                 </tr>
               </tbody>
@@ -203,70 +241,70 @@ const Commande = () => {
                   <td>200 H</td>
                   <td>
                     {' '}
-                    <input type="number" />{' '}
+                    <input type="text" />{' '}
                   </td>
                   <td>
-                    <input type="number" />{' '}
+                    <input type="text" />{' '}
                   </td>
                 </tr>
                 <tr>
                   <td>300 H</td>
                   <td>
                     {' '}
-                    <input type="number" />{' '}
+                    <input type="text" />{' '}
                   </td>
                   <td>
-                    <input type="number" />{' '}
+                    <input type="text" />{' '}
                   </td>
                 </tr>
                 <tr>
                   <td>500 H</td>
                   <td>
                     {' '}
-                    <input type="number" />{' '}
+                    <input type="text" />{' '}
                   </td>
                   <td>
-                    <input type="number" />{' '}
+                    <input type="text" />{' '}
                   </td>
                 </tr>
                 <tr>
                   <td>1000 H</td>
                   <td>
                     {' '}
-                    <input type="number" />{' '}
+                    <input type="text" />{' '}
                   </td>
                   <td>
-                    <input type="number" />{' '}
+                    <input type="text" />{' '}
                   </td>
                 </tr>
                 <tr>
                   <td>1500 H</td>
                   <td>
                     {' '}
-                    <input type="number" />{' '}
+                    <input type="text" />{' '}
                   </td>
                   <td>
-                    <input type="number" />{' '}
+                    <input type="text" />{' '}
                   </td>
                 </tr>
                 <tr>
                   <td>2000 H</td>
                   <td>
                     {' '}
-                    <input type="number" />{' '}
+                    <input type="text" />{' '}
                   </td>
                   <td>
-                    <input type="number" />{' '}
+                    <input type="text" />{' '}
                   </td>
                 </tr>
                 <tr>
                   <td>3000 H</td>
                   <td>
                     {' '}
-                    <input type="number" />{' '}
+                    <input type="text" />{' '}
                   </td>
                   <td>
-                    <input type="number" />{' '}
+                    <input type="text" />{' '}
                   </td>
                 </tr>
               </tbody>
@@ -284,43 +322,51 @@ const Commande = () => {
               </thead>
               <tbody>
                 <tr>
-                  <td>500 VB</td>
                   <td>
-                    {' '}
-                    <input type="number" />{' '}
+                    500 VL Large <span>85*98</span>
                   </td>
                   <td>
-                    <input type="number" />{' '}
+                    {' '}
+                    <input type="text" />{' '}
+                  </td>
+                  <td>
+                    <input type="text" />{' '}
                   </td>
                 </tr>
                 <tr>
-                  <td>1000 VB</td>
                   <td>
-                    {' '}
-                    <input type="number" />{' '}
+                    1000 VL Large <span>105*127</span>
                   </td>
                   <td>
-                    <input type="number" />{' '}
+                    {' '}
+                    <input type="text" />{' '}
+                  </td>
+                  <td>
+                    <input type="text" />{' '}
                   </td>
                 </tr>
                 <tr>
-                  <td>1500 VB</td>
                   <td>
-                    {' '}
-                    <input type="number" />{' '}
+                    1500 VL Large <span>120*145</span>
                   </td>
                   <td>
-                    <input type="number" />{' '}
+                    {' '}
+                    <input type="text" />{' '}
+                  </td>
+                  <td>
+                    <input type="text" />{' '}
                   </td>
                 </tr>
                 <tr>
-                  <td>2000 VB</td>
                   <td>
-                    {' '}
-                    <input type="number" />{' '}
+                    2000 VL Large <span>130*162</span>
                   </td>
                   <td>
-                    <input type="number" />{' '}
+                    {' '}
+                    <input type="text" />{' '}
+                  </td>
+                  <td>
+                    <input type="text" />{' '}
                   </td>
                 </tr>
               </tbody>

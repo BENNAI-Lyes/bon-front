@@ -79,6 +79,7 @@ const TabelStats = ({
         )}
         content={() => ref?.current}
       />
+
       <div className="table">
         <div className="table-head">
           <p className="first">Produit</p>
@@ -86,14 +87,16 @@ const TabelStats = ({
           <p>Nombre retourné</p>
           <p>Bénéfice net</p>
         </div>
-        {products.map((p, index) => (
-          <div className="item" key={index}>
-            <p className="first"> {p.name} </p>
-            <p> {getTotalSells(p.name, s.data, s._id)} </p>
-            <p> {getTotalReturns(p.name, s._id)} </p>
-            <p> {getNetProfit(p, s.data)},00 DA </p>
-          </div>
-        ))}
+        <div className="items">
+          {products.map((p, index) => (
+            <div className="item" key={index}>
+              <p className="first"> {p.name} </p>
+              <p> {getTotalSells(p.name, s.data, s._id)} </p>
+              <p> {getTotalReturns(p.name, s._id)} </p>
+              <p> {getNetProfit(p, s.data)},00 DA </p>
+            </div>
+          ))}
+        </div>
       </div>
 
       {/* // Totals */}

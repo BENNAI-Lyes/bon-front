@@ -1,8 +1,23 @@
+.table {
+  .items {
+    @media print {
+      padding: 10px 0;
+    }
+
+    .item {
+      @media print {
+        padding: 3px 0;
+      }
+    }
+  }
+}
+
 .totals {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
   margin: 15px;
+  padding-left: 10px;
 
   .total {
     border: 1px solid #333;

@@ -18,7 +18,7 @@
 }
 
 .commandebottom {
-  padding: 20px 100px;
+  padding: 10px 50px;
 
   .commandelogo {
     display: flex;
@@ -27,25 +27,25 @@
     gap: 5px;
 
     .commandelogoImg {
-      width: 120px;
+      width: 100px;
     }
 
     .commandelogoTextL {
-      font-size: 14px;
-      font-weight: 500;
+      font-size: 13px;
+      font-weight: 600;
     }
 
     .logoTextS {
-      font-size: 11px;
-      font-weight: 600;
+      font-size: 10px;
+      font-weight: 700;
     }
   }
 
   .commandeinfo {
     .commandetitle {
       text-align: center;
-      margin: 10px 0;
-      font-size: 28px;
+      margin: 7px 0;
+      font-size: 24px;
     }
     .commandeinfoFlex {
       display: flex;
@@ -59,13 +59,13 @@
   }
 
   .commandetable {
-    margin-top: 20px;
+    margin-top: 15px;
 
     caption {
-      font-size: 18px;
-      font-weight: 600;
+      font-size: 17px;
+      font-weight: 800;
       background-color: lightblue;
-      padding: 10px 0;
+      padding: 5px 0;
       border-left: 1px solid #333;
       border-right: 1px solid #333;
     }
@@ -84,7 +84,15 @@
       th,
       td {
         width: 33.33%;
-        padding: 4px 0;
+        padding: 5px 0;
+        font-weight: 700;
+      }
+
+      td {
+        span {
+          font-size: 14px;
+          font-weight: 900;
+        }
       }
 
       &:first-of-type {
@@ -97,8 +105,8 @@
         border: none;
         width: 100%;
         text-align: center;
-        font-size: 18px;
-        font-weight: 600;
+        font-size: 16px;
+        font-weight: 800;
 
         &:focus {
           outline: none;
